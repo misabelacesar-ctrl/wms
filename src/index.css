@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-sans: "Public Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+  }
+}
+
+.wms-slot-unavailable {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgb(254 243 199 / 0.85),
+    rgb(254 243 199 / 0.85) 5px,
+    rgb(253 230 138 / 0.55) 5px,
+    rgb(253 230 138 / 0.55) 10px
+  );
+}

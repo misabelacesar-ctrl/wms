@@ -1,0 +1,6 @@
+{
+  "name": "Gestão WMS — Controle de Armazém",
+  "description": "Sistema WMS simplificado para gestão visual de 150 posições porta-paletes, recebimento (putaway), picking, indicadores de ocupação e busca de estoque.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
